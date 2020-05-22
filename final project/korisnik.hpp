@@ -1,5 +1,5 @@
 #ifndef KORISNIK_HPP_INCLUDED
-#define KORISNIK_HPP_INCLUDED"
+#define KORISNIK_HPP_INCLUDED
 #include <fstream>
 class Korisnik
 {

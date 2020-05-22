@@ -38,6 +38,7 @@
 		<Unit filename="menadzer.hpp" />
 		<Unit filename="osoba.hpp" />
 		<Unit filename="stattimova.hpp" />
+		<Unit filename="tiket.hpp" />
 		<Unit filename="tim.hpp" />
 		<Unit filename="utakmica.hpp" />
 		<Extensions>

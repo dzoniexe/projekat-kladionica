@@ -17,7 +17,7 @@ using namespace std;
 class Tim:public StatTimova
 {
 private:
-    string naziv;//ime tima
+
     string mesto;//odakle je
     vector<Igrac*> postava;//skup igrača koji su pod vlasništvom tima
     string trener;//glavni baja
@@ -26,7 +26,7 @@ private:
 //    int fansupport;
 public:
     // Ovo ispod ne zaboravi da promeniš kada menjaš prajvet
-
+    string naziv;//ime tima VRATI U PRIVATE, OVO JE SAMO TEST
     int i = 1;
 
     Tim(string tim_naziv, string tim_mesto, string tim_trener, int tim_rating, int tim_pobede, int tim_porazi, int tim_bodovi, int tim_golovidati, int tim_goloviprimljeni):StatTimova(tim_pobede, tim_porazi, tim_bodovi, tim_golovidati, tim_goloviprimljeni)
@@ -36,6 +36,9 @@ public:
         trener = tim_trener;               //TRENERA NE ZABORAVI DA NAPRAVIŠ KLASU MENADZER, OVO JE KRŠ
         rating = tim_rating;
     }
+
+    string getNaziv(){return naziv;}
+    int getRTG(){return rating;}
 
     void dodaj(Igrac* igr)
     {
