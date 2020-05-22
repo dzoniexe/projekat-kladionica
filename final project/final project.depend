@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1590150764 source:c:\users\korisnik\documents\programiranje\final project\main.cpp
+	<iostream>
+	<string>
+	<conio.h>
+	"osoba.hpp"
+	"igrac.hpp"
+	"tim.hpp"
+	"stattimova.hpp"
+
+1590077272 c:\users\korisnik\documents\programiranje\final project\osoba.hpp
+	<string>
+
+1590150413 c:\users\korisnik\documents\programiranje\final project\igrac.hpp
+	<string>
+	"osoba.hpp"
+
+1590076453 c:\users\korisnik\documents\programiranje\final project\tim.hpp
+	<string>
+	<vector>
+	"osoba.hpp"
+	"igrac.hpp"
+	"stattimova.hpp"
+
+1590076520 c:\users\korisnik\documents\programiranje\final project\stattimova.hpp
+
