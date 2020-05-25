@@ -15,10 +15,10 @@ class Igrac:public Osoba
 {
 private:
     int broj;
-    string pozicija;
+    string pozicija;int rating;
     //nešto ovde fali
 public:
-        int rating;//OVO VRATI U PRIVATE, U PUBLICU JE SAMO TBOG TESTA
+       //OVO VRATI U PRIVATE, U PUBLICU JE SAMO TBOG TESTA
   //  Igrac():Osoba("Teodor", "Perunicic", 16), broj(1), rating(60), pozicija("odbrana") {};
 
     Igrac(string igrac_ime, string igrac_prezime, int igrac_godine, int igrac_broj, int igrac_rating, string igrac_pozicija):Osoba(igrac_ime, igrac_prezime, igrac_godine)

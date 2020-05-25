@@ -239,7 +239,7 @@ void startermeni()
             exit(0);
         default:
             system("cls");
-            cout<<"Pa nije"<<endl;
+            cout<<"!!!44810!!!"<<endl;
             break;
         }
     }
@@ -380,23 +380,23 @@ void ispisiInfoTimPoziv()
     Igrac i9("Vladimir", "Ivan", 31, 9, 73, "sredina");
     Igrac i10("Pa", "Nije", 23, 44180, 99, "napad");
 
-    Igrac i11("Vukasin", "Skrbic", 16, 1, 65, "golman");
-    Igrac i12("Isaija", "Dragic", 16, 2, 13, "odbrana");
-    Igrac i13("Milos", "Jevric", 17, 7, 67, "sredina");
-    Igrac i14("Vladimir", "Ivan", 31, 9, 73, "sredina");
-    Igrac i15("Pa", "Nije", 23, 44180, 99, "napad");
+    Igrac i11("Marko", "Skrbic", 16, 1, 65, "golman");
+    Igrac i12("Petar", "Dragic", 16, 2, 75, "odbrana");
+    Igrac i13("Stefan", "Jevric", 17, 7, 23, "sredina");
+    Igrac i14("Zvonko", "Ivan", 31, 9, 91, "sredina");
+    Igrac i15("Ranko", "Nije", 23, 44180, 99, "napad");
 
-    Igrac i16("Vukasin", "Skrbic", 16, 1, 65, "golman");
-    Igrac i17("Isaija", "Dragic", 16, 2, 13, "odbrana");
-    Igrac i18("Milos", "Jevric", 17, 7, 67, "sredina");
-    Igrac i19("Vladimir", "Ivan", 31, 9, 73, "sredina");
-    Igrac i20("Pa", "Nije", 23, 44180, 99, "napad");
+    Igrac i16("Vladislav", "Nikolic", 16, 1, 75, "golman");
+    Igrac i17("Lignjoslav", "Pipak", 16, 2, 99, "odbrana");
+    Igrac i18("Arkan", "Jevric", 17, 7, 89, "sredina");
+    Igrac i19("Uros", "Jovanovic", 31, 9, 11, "sredina");
+    Igrac i20("Bogdan", "Ilic", 23, 44180, 99, "napad");
 
 
-    int ukupniRating1 = (i1.rating + i2.rating + i3.rating + i4.rating + i5.rating)/5;
-    int ukupniRating2 = (i6.rating + i7.rating + i8.rating + i9.rating + i10.rating)/5;
-    int ukupniRating3 = (i11.rating + i12.rating + i13.rating + i14.rating + i15.rating)/5;
-    int ukupniRating4 = (i16.rating + i17.rating + i18.rating + i19.rating + i20.rating)/5;
+    int ukupniRating1 = (i1.getRTG() + i2.getRTG() + i3.getRTG() + i4.getRTG() + i5.getRTG())/5;
+    int ukupniRating2 = (i6.getRTG() + i7.getRTG() + i8.getRTG() + i9.getRTG() + i10.getRTG())/5;
+    int ukupniRating3 = (i11.getRTG() + i12.getRTG() + i13.getRTG() + i14.getRTG() + i15.getRTG())/5;
+    int ukupniRating4 = (i16.getRTG() + i17.getRTG() + i18.getRTG() + i19.getRTG() + i20.getRTG())/5;
 
 
     Tim t1("Crveni", "Novi Sad", "Sinisa Srdzanu", ukupniRating1, 0, 0, 0, 0, 0);
@@ -486,23 +486,23 @@ void ispisiUcinakTimova()
     Igrac i9("Vladimir", "Ivan", 31, 9, 73, "sredina");
     Igrac i10("Pa", "Nije", 23, 44180, 99, "napad");
 
-    Igrac i11("Vukasin", "Skrbic", 16, 1, 65, "golman");
-    Igrac i12("Isaija", "Dragic", 16, 2, 13, "odbrana");
-    Igrac i13("Milos", "Jevric", 17, 7, 67, "sredina");
-    Igrac i14("Vladimir", "Ivan", 31, 9, 73, "sredina");
-    Igrac i15("Pa", "Nije", 23, 44180, 99, "napad");
+    Igrac i11("Marko", "Skrbic", 16, 1, 65, "golman");
+    Igrac i12("Petar", "Dragic", 16, 2, 75, "odbrana");
+    Igrac i13("Stefan", "Jevric", 17, 7, 23, "sredina");
+    Igrac i14("Zvonko", "Ivan", 31, 9, 91, "sredina");
+    Igrac i15("Ranko", "Nije", 23, 44180, 99, "napad");
 
-    Igrac i16("Vukasin", "Skrbic", 16, 1, 65, "golman");
-    Igrac i17("Isaija", "Dragic", 16, 2, 13, "odbrana");
-    Igrac i18("Milos", "Jevric", 17, 7, 67, "sredina");
-    Igrac i19("Vladimir", "Ivan", 31, 9, 73, "sredina");
-    Igrac i20("Pa", "Nije", 23, 44180, 99, "napad");
+    Igrac i16("Vladislav", "Nikolic", 16, 1, 75, "golman");
+    Igrac i17("Lignjoslav", "Pipak", 16, 2, 99, "odbrana");
+    Igrac i18("Arkan", "Jevric", 17, 7, 89, "sredina");
+    Igrac i19("Uros", "Jovanovic", 31, 9, 11, "sredina");
+    Igrac i20("Bogdan", "Ilic", 23, 44180, 99, "napad");
 
 
-    int ukupniRating1 = (i1.rating + i2.rating + i3.rating + i4.rating + i5.rating)/5;
-    int ukupniRating2 = (i6.rating + i7.rating + i8.rating + i9.rating + i10.rating)/5;
-    int ukupniRating3 = (i11.rating + i12.rating + i13.rating + i14.rating + i15.rating)/5;
-    int ukupniRating4 = (i16.rating + i17.rating + i18.rating + i19.rating + i20.rating)/5;
+    int ukupniRating1 = (i1.getRTG() + i2.getRTG() + i3.getRTG() + i4.getRTG() + i5.getRTG())/5;
+    int ukupniRating2 = (i6.getRTG() + i7.getRTG() + i8.getRTG() + i9.getRTG() + i10.getRTG())/5;
+    int ukupniRating3 = (i11.getRTG() + i12.getRTG() + i13.getRTG() + i14.getRTG() + i15.getRTG())/5;
+    int ukupniRating4 = (i16.getRTG() + i17.getRTG() + i18.getRTG() + i19.getRTG() + i20.getRTG())/5;
 
 
     Tim t1("Crveni", "Novi Sad", "Sinisa Srdzanu", ukupniRating1, 0, 0, 0, 0, 0);
@@ -590,23 +590,23 @@ void playgames()
     Igrac i9("Vladimir", "Ivan", 31, 9, 73, "sredina");
     Igrac i10("Pa", "Nije", 23, 44180, 99, "napad");
 
-    Igrac i11("Vukasin", "Skrbic", 16, 1, 65, "golman");
-    Igrac i12("Isaija", "Dragic", 16, 2, 13, "odbrana");
-    Igrac i13("Milos", "Jevric", 17, 7, 67, "sredina");
-    Igrac i14("Vladimir", "Ivan", 31, 9, 73, "sredina");
-    Igrac i15("Pa", "Nije", 23, 44180, 99, "napad");
+    Igrac i11("Marko", "Skrbic", 16, 1, 65, "golman");
+    Igrac i12("Petar", "Dragic", 16, 2, 75, "odbrana");
+    Igrac i13("Stefan", "Jevric", 17, 7, 23, "sredina");
+    Igrac i14("Zvonko", "Ivan", 31, 9, 91, "sredina");
+    Igrac i15("Ranko", "Nije", 23, 44180, 99, "napad");
 
-    Igrac i16("Vukasin", "Skrbic", 16, 1, 65, "golman");
-    Igrac i17("Isaija", "Dragic", 16, 2, 13, "odbrana");
-    Igrac i18("Milos", "Jevric", 17, 7, 67, "sredina");
-    Igrac i19("Vladimir", "Ivan", 31, 9, 73, "sredina");
-    Igrac i20("Pa", "Nije", 23, 44180, 99, "napad");
+    Igrac i16("Vladislav", "Nikolic", 16, 1, 75, "golman");
+    Igrac i17("Lignjoslav", "Pipak", 16, 2, 99, "odbrana");
+    Igrac i18("Arkan", "Jevric", 17, 7, 89, "sredina");
+    Igrac i19("Uros", "Jovanovic", 31, 9, 11, "sredina");
+    Igrac i20("Bogdan", "Ilic", 23, 44180, 99, "napad");
 
 
-    int ukupniRating1 = (i1.rating + i2.rating + i3.rating + i4.rating + i5.rating)/5;
-    int ukupniRating2 = (i6.rating + i7.rating + i8.rating + i9.rating + i10.rating)/5;
-    int ukupniRating3 = (i11.rating + i12.rating + i13.rating + i14.rating + i15.rating)/5;
-    int ukupniRating4 = (i16.rating + i17.rating + i18.rating + i19.rating + i20.rating)/5;
+    int ukupniRating1 = (i1.getRTG() + i2.getRTG() + i3.getRTG() + i4.getRTG() + i5.getRTG())/5;
+    int ukupniRating2 = (i6.getRTG() + i7.getRTG() + i8.getRTG() + i9.getRTG() + i10.getRTG())/5;
+    int ukupniRating3 = (i11.getRTG() + i12.getRTG() + i13.getRTG() + i14.getRTG() + i15.getRTG())/5;
+    int ukupniRating4 = (i16.getRTG() + i17.getRTG() + i18.getRTG() + i19.getRTG() + i20.getRTG())/5;
 
 
     Tim t1("Crveni", "Novi Sad", "Sinisa Srdzanu", ukupniRating1, 0, 0, 0, 0, 0);
