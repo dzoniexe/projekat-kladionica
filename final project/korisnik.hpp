@@ -9,7 +9,7 @@ private:
     string password;
     string username;
     int status;
-    static int brojKorisnika;
+
 
 public:
     Korisnik(string korisnik_ime, string korisnik_prezime, string korisnik_username, string korisnik_password, int korisnik_status)
@@ -19,9 +19,6 @@ public:
         username=korisnik_username;
         password=korisnik_password;
         status= korisnik_status;
-        {
-            brojKorisnika++;
-        }
     }
     string getKime()
     {
@@ -39,9 +36,44 @@ public:
     {
         return password;
     }
+    int getKstatus()
+    {
+        return status;
+    }
+
+
+    bool Login(string im,string user, string pass)
+    {
+        if(user==username && pass==password && im==ime)
+            return true;
+        else
+            return false;
+    }
+
+
+
+
+
+    void pisiTxt(char mode='w')
+    {
+        ofstream fajl;
+
+        if (mode=='a'){
+            fajl.open ("korisnik.txt", ios_base::app);
+        }
+        else{
+            fajl.open ("korisnik.txt");
+        }
+        fajl<< ime <<"|"<< prezime <<"|"<< username <<"|"<< password<< "|" << status << endl;
+        fajl.close();
+    }
+
+
+
+
+
 
 
 
 };
-
 #endif // KORISNIK_HPP_INCLUDED

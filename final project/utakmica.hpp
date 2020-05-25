@@ -1,11 +1,6 @@
 #ifndef UTAKMICA_HPP_INCLUDED
 #define UTAKMICA_HPP_INCLUDED
 
-#include "osoba.hpp"
-#include "igrac.hpp"
-#include "tim.hpp"
-#include "stattimova.hpp"
-
 //OVDE JE SVE MAĐIJJJAAAAA
 
 class Utakmica{
